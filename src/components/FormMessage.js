@@ -10,7 +10,6 @@ const FormMessage = ({sendMessage}) => {
     const  send = (e) => {
         e.preventDefault();
         sendMessage(currentMessage);
-        alert("Message has been sent.");
         setCurrentMessage({recipient: '', title: '', body: ''});
     };
 

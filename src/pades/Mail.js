@@ -17,7 +17,7 @@ const openNotification = (from, title, text) => {
       message: 'Title: ' + title,
       description: 'Text: ' + text,
     });
-  }, 1000);
+  }, 2000);
 };
 
 const Mail = ({ socket, username }) => {
